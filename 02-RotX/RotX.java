@@ -69,9 +69,9 @@ public class RotX {
         System.out.println(xifraRotX("Hola, Mr. calçot", 4));
         
         String encrypted = xifraRotX("Perdó, per tu què és?", 6); // example: create an encrypted string
-    System.out.println("Encrypted message: " + encrypted);
-    System.out.println("----------------------------");
-    forcaBrutaRotX(encrypted);
+        System.out.println("Encrypted message: " + encrypted);
+        System.out.println("----------------------------");
+        forcaBrutaRotX(encrypted);
 
     }
 }
